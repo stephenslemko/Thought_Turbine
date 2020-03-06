@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Forza 4 Horizon | Home </title>
+   <meta name="midterm" content="Forza 4">
+   <meta name="author" content="Stephen Slemko">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">  <!-- I grabbed two fonts from google fonts, I've only used Maven, I thought it looked better-->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="navBar">
+    <div class="nav">
+      <img class="menu_icon" src="./images/forza_horizon_4_icon.png" alt="Forza Horizon 4 icon"> <!-- Added an icon to the Nav Bar -->
+       <label for="toggle">&#9776;</label>
+       <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#Top">Home</a>
+            <a href="#Mid_1">Racing Types</a>
+            <a href="#Mid_2">Game Location</a> <!-- Anchor links lead to the top of the applicable section -->
+            <a href="#Bottom">Fan Club</a>
+        </div>
+      </div>
+  </section>
+  <section id="Top">
+    <div class="flex-container"> <!-- I created a page using grid/column and a page using flex-boxes, I found the flex-box page scaled better -->
+      <div class="roadster">
+        <video id="forza_gp1" autoplay muted loop class>
+          <source src="videos/forza.mp4" type="video/mp4">  <!-- Video which plays at the top/bottom of page -->
+        </video>
+        <img class="mainIcon" src="./images/forza_horizon_4.png" alt="Forza Horizon 4 icon"> <!-- You asked for a header, I used an icon and a lower quote, my intent was to make an advertising page for this game -->
+        <h2 Class="review">This game rewards exploration and silliness just as
+          much as careful racing.<span>&nbsp; - Business Insider</span></h2>
+      </div>
+    </div>
+  </section>
+  <section id="Mid_1">                           <!-- This section contains 3 divisions, each with an image, header, and paragraph -->
+     <div class="flex-container">
+         <div class="coupe">
+            <img class="rideStyle" src="images/McLaren_Senna.png" alt="McLaren Senna">
+            <h2 class="rideTitle">Road</h2>
+            <p class="ridefont">Take to the streets of England. You can lay rubber
+              downtown as you make daring passes around blind city corners. Or
+              marvel at the open world as you drive through the quaint countryside.
+              All while behind the wheel of a car you could only dream of driving! Road
+              racing classes have been expanded to include Street racing and Drifting. Now
+              with over 450 different cars to choose from 97 different manufactorer's
+              and custom builders you're bound to find your favourite ride.
+            </p>
+         </div>
+         <div class="coupe">
+            <img class="rideStyle" src="images/Porsche_185_959.png" alt="Porsche
+            959 Rally edition">
+            <h2 class="rideTitle">Dirt</h2>
+            <p class="ridefont">If pavement is too mainstream don't fret. The open
+               world is full of dirt tracks, complete with hairpin turns, air
+               catching lips, and plenty of obsticles. Rally racing is integral to
+               the Forza Horizon 4 experience! With tons of real world rally championship
+               cars ready to hit the gravel, and plenty of factory cars just waiting
+               for you to give custom rally paint schemes too, Ott Tänak would be proud.
+            </p>
+         </div>
+         <div class="coupe">
+           <img class="rideStyle" src="images/MINI_XRaid.png" alt="MINI X Raid">
+           <h2 class="rideTitle">Cross Country</h2>
+           <p class="ridefont">Who needs roads anyway? A whole class of all-terrain
+           racing is waiting for you. Crash through fences, splash through rivers,
+            knock down anything (or anyone) in your way. Whatever it takes to make
+            it to the finish! Cross country races are a fantastic way to take in the
+            sweeping landscapes of britain. With plenty of custom styled vehicles
+            complete with a lack of doors and plenty of roll bars you'll bound to
+            have fun, even if you end up on the well supported roof!</p>
+         </div>
+     </div>
+  </section>
+  <section id="Mid_2"> <!-- This section contains a div with a block of text in a box(rounded corners and opaque), above the div I placed an icon instead of a header -->
+    <div class="flex-container">
+      <div class="sedan">
+        <img class="locationIcon" src="./images/forza_horizon_4.png" alt="Forza Horizon 4 icon">
+        <div class="locationBody">
+          <p class="locationText">
+            <span>Locale</span><br><br>
+            Forza Horison 4 is set in Britian, or at least something
+            like Britain. The country side is remeniscient of everywhere from the
+            highlands in Scotland to the busy hubs of Bristol. The designers managed to
+            model exact roads and buildings, yet the world is unique to itself. Get
+            behind the wheel and come explore, you might just find an old classic
+            hiding in a barn waiting to be revived.<br><br>
+            <span>Seasons</span><br><br>
+            Watch as the stunning backgrounds change with the
+            seasons. Bask in the orange glow of autumn, as you drift among the fallen
+            leaves. Be prepared for the snow covered roads with the blistering winter.
+            Get ready to grip the pavement in the heat of summer. Can you handle
+             the slick roads of spring? Some race types are only available during
+             particular seasons!<br><br>
+            <span>Daily online Events</span><br><br>
+            Everyday new online matches are set up. No need to
+            enter a lobby, online races will have warnings that pop up in game telling
+            you the start time and location of the race. You can choose to take part,
+            or you can traverse the open world looking for barn finds or offline
+            single player races. Difficulty is always scaled and competing cars are
+            choosen based on your current ride to make the race competetive.<br><br>
+            <span>Showcase Events</span><br><br>
+            As you complete races and gain scene credits you'll unlock special
+            show case events. In these events you'll gain access to one time only races.
+            What you'll be driving is a mystery before hand, and your opponents may seem unconventional.
+            Have you ever raced a train down a mountain? How about an entire crew
+            of motocross riders through a strip mine? Will you be able to finish first?
+            The only way to know is to buckle up and start racing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Bottom"> <!-- This section uses the fixed video background from the top, there is fixed, blurred, rounded corner div that acts as a form background. The form was styled and placed on top -->
+    <div class="flex-container">
+      <div class="chassis">
+        <video id="forza_gp2" autoplay muted loop class>
+            <source src="videos/forza.mp4" type="video/mp4">
+        </video>
+	      <form id="signUp" action="https://forums.forzamotorsport.net/" target="_blank" method="post"> <!-- I thouhgt it'd be funny to link the sign-up form to the actual forza Forums site -->
+          <div id="formTitle">
+            <h2 id="formH2">Forza Horizon 4 Fan Club</h2>
+          </div>
+          <div id="userName"> <!--I realized after running through a validator that this is a shared ID, unfortunately I didn't have time to fix this issue -->
+			      <input type="text" id="userName" name="User_Name" placeholder="User Name..." required>
+		      </div>
+		      <div id="email"> <!-- Same fault as above, resuesd an id, didn't have time to fix -->
+			      <input type="email" id="email" name="User_Email" placeholder="Email..." required>
+		      </div>
+		      <div id="button">
+	          <button class="button">Sign Up</button>
+	        </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

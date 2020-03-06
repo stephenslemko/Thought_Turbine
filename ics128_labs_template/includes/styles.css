@@ -1,0 +1,273 @@
+
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* general */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	background:#ffffff;
+	color:#555;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+img {
+	padding: 10px 10px 10px 10px;
+}
+
+/* header */
+#header {
+	/* border-bottom:1px solid #999; */
+	height:80px;
+	margin:0 auto;
+	width:901px;
+}
+#header h1 {
+	color:#888;
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-bottom:-20px;
+}
+#header h2 {
+	color:#CCC;
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+/* navigation */
+#navigation {
+	background:#fafafa;
+	border-top: 1px solid #999;
+	border-right:1px solid #999;
+	margin:0 auto;
+	width:1050px;
+	height:40px;
+	list-style:none;
+}
+#navigation li {
+	border-left:1px solid #999;
+	float:left;
+	width:149px;
+	list-style:none;
+}
+#navigation a {
+	color:#555;
+	display:block;
+	line-height:40px;
+	text-align:center;
+}
+#navigation a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+#navigation .active {
+	background:#e3e3e3;
+	color:#777;
+}
+
+/* content */
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:1050px;
+	border-bottom: 1px solid #999;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+}
+#content h2 {
+	font-size:1.8em;
+	padding:20px 20px 0;
+}
+#content h3 {
+	font-size:1.4em;
+	padding:20px 20px 0;
+}
+#content p {
+	padding:20px 20px 0;
+}
+
+#content h4 {
+	padding:20px 20px 0;
+}
+#helloAgain {
+	margin-left: 25px;
+}
+#hello {
+	margin-left: 25px;
+}
+#tableForTaxes, th, td {
+	margin-left: 25px;
+	border: 1px solid black;
+}
+#pryamid {
+	margin-left: 25px;
+}
+#inputString {
+	padding: 0px;
+	height: 30px;
+	width: 300px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;;
+}
+#inputLetterKey {
+	padding: 0px;
+	height: 30px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#removeChar {
+	background-color: #004080;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+#myButton {
+	background-color: #004080;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+#shuffle {
+	background-color: #004080;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+#dynamicTable {
+	margin-left:25px;
+}
+#getInformation {
+	margin-left: 25px;
+}
+#nameInput {
+	padding: 0px;
+	height: 30px;
+	width: 350px;
+	margin-left: 37px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#ageInput {
+	padding: 0px;
+	height: 30px;
+	width: 100px;
+	margin-left: 48px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#emailInput {
+	padding: 0px;
+	height: 30px;
+	width: 550px;
+	margin-left: 38px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#phoneInput {
+	padding: 0px;
+	height: 30px;
+	width: 250px;
+	margin-left: 23px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#postalCodeInput {
+	padding: 0px;
+	height: 30px;
+	width: 250px;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid blue;
+	color: green;
+	background-color: white;
+	font-size: 16px;
+}
+#formSubmitButton {
+	background-color: #004080;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+	cursor: pointer;
+}
+
+/* footer */
+#footer {
+	/* border-top:1px solid #999; */ 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:901px;
+}
+table, th, td {
+	border: 1px solid black;
+}
+td {
+	padding: 10px;
+}
+/*  */
+.error, .ad {
+	font-weight: bold;
+	color: #C00
+}
+
+input, select, .input {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1em;
+	color: #008040;
+	background: #FFFFFF;
+	border:1px dotted #004080;
+}
